@@ -21,26 +21,26 @@ body:
   "ownerName": "Zé da Silva",
   "document": "1432132123891/0001",
   "coverageArea": [
-		[
-			[
-				{ 
-				 "long" : 30,
-				 "lat": 20
-				},
-				{ 
-				 "long" : 45,
-				 "lat": 40
-				},
-				{ 
-				 "long" : 10,
-				 "lat": 40
-				},
-				{ 
-				 "long" : 30,
-				 "lat": 20
-				}
-			]
-		]
+        [
+            [
+                { 
+                 "long" : 30,
+                 "lat": 20
+                },
+                { 
+                 "long" : 45,
+                 "lat": 40
+                },
+                { 
+                 "long" : 10,
+                 "lat": 40
+                },
+                { 
+                 "long" : 30,
+                 "lat": 20
+                }
+            ]
+        ]
   ]
   ,
   "address": {"long" :-46.57421, "lat": -21.785741}
@@ -59,6 +59,6 @@ body:
 ```
 {
   "long": 30,
-	"lat": 40
+  "lat": 40
 }
 ```
