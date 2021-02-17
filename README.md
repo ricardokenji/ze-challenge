@@ -6,9 +6,9 @@ Entrar na raiz do projeto e executar os comandos:
 
 `./gradlew bootRun`
 
-## Endpoints 
+## Endpoints
 
-###Criar partner
+### Criar partner
 POST http://localhost:8080/partner
 headers:
 ```
@@ -46,10 +46,10 @@ body:
   "address": {"long" :-46.57421, "lat": -21.785741}
 }
 ```
-###Procurar partner por id
+### Procurar partner por id
 GET http://localhost:8080/partner/{partnerId}
 
-###Procurar partner mais próximo
+### Procurar partner mais próximo
 GET http://localhost:8080/partner/search
 headers:
 ```
