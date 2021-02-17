@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: ze-kenji
+
+mongodb:
+  url: mongodb://root:root@localhost:27017
+  database: ze
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
